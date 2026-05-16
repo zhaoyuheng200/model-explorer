@@ -1,3 +1,15 @@
+# @neilzhao200/model-explorer-visualizer
+
+This is an unofficial community publish of the [Model Explorer](https://github.com/google-ai-edge/model-explorer) visualizer web component, kept in sync with the latest source code on the main branch.
+
+The official npm package [`ai-edge-model-explorer-visualizer`](https://www.npmjs.com/package/ai-edge-model-explorer-visualizer) has not been updated for an extended period. This package provides the same functionality built from the latest source so that downstream consumers can access recent improvements and bug fixes.
+
+**Official links:**
+- GitHub: https://github.com/google-ai-edge/model-explorer
+- Official npm package: https://www.npmjs.com/package/ai-edge-model-explorer-visualizer
+
+---
+
 # Overview
 
 This npm package provides the core visualizer UI from [Model Explorer](https://github.com/google-ai-edge/model-explorer) as a reusable custom element `<model-explorer-visualizer>`, enabling easy integration across various UI libraries and frameworks. It offers the following core functionalities:

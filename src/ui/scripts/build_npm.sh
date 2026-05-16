@@ -19,8 +19,8 @@
 set -e
 
 # Build the custom element code and the model explorer code.
-ng build custom_element
-ng build model_explorer
+npx ng build custom_element
+npx ng build model_explorer
 
 # Build the browser-loadable script.
 esbuild dist/custom_element/browser/main.js --bundle --outfile=dist/custom_element/browser/main_browser.js
